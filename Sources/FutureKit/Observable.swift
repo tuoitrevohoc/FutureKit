@@ -17,6 +17,10 @@ open class Observable<Event> {
     /// The handler
     private var handlers: [String: Handler] = [:]
     
+    /// initialize an observable
+    public init() {
+    }
+    
     /// the result to handle
     public func publish(_ event: Event) {
         for (_, handler) in handlers {
