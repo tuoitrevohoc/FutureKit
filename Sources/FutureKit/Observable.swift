@@ -9,7 +9,7 @@ import Foundation
 
 /// The observable class
 /// return a
-public class Observable<Event> {
+open class Observable<Event> {
 
     /// The handler type
     public typealias Handler = (Event) -> Void
