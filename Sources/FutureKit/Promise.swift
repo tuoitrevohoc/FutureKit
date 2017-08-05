@@ -1,6 +1,6 @@
 import Foundation
 
-/// The promise class
+/// The promise class for resolving an object from the "future"
 /// return a
 public class Promise<Result> {
     
